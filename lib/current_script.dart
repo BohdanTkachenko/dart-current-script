@@ -2,8 +2,8 @@ import 'dart:io';
 import 'package:stack_trace/stack_trace.dart';
 import 'package:path/path.dart' as path;
 
-File currentScript() {
-  Uri uri = new Trace.current(1).frames[0].uri;
+File currentScript([int level=0]) {
+  Uri uri = new Trace.current(level + 1).frames[0].uri;
 
   RegExp fileRe = new RegExp(r'^file://');
   RegExp packageRe = new RegExp(r'^package:');

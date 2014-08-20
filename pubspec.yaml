@@ -1,6 +1,6 @@
 name: current_script
 description: Get current script name
-version: 0.0.1
+version: 0.0.3
 author: Bohdan Tkachenko <bogus.weber@gmail.com>
 homepage: https://github.com/bogus-weber/dart-current-script
 dependencies:
