@@ -1,5 +1,8 @@
 name: current_script
 description: Get current script name
+version: 0.0.1
+author: Bohdan Tkachenko <bogus.weber@gmail.com>
+homepage: https://github.com/bogus-weber/dart-current-script
 dependencies:
   path: ">=1.3.0 <2.0.0"
   stack_trace: ">=1.0.2 <2.0.0"
